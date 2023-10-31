@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mI3nM5kssx5RnNYbFVp+/D8UdvmoxChrU266DD2t/QIg6d7RhbkN06KSbVj/3u0AevS5IahDxt+ZhqMq496KgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WAFFLES\\RiderProjects\\Blazor assignment\\FileData\\FileData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WAFFLES\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.12\\microsoft.aspnetcore.authorization.7.0.12.nupkg.sha512",
+    "C:\\Users\\WAFFLES\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.12\\microsoft.aspnetcore.metadata.7.0.12.nupkg.sha512",
+    "C:\\Users\\WAFFLES\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\WAFFLES\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\WAFFLES\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\WAFFLES\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

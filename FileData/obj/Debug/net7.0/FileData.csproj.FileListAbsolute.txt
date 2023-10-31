@@ -1,0 +1,51 @@
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\bin\Debug\net7.0\FileData.deps.json
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\bin\Debug\net7.0\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\bin\Debug\net7.0\FileData.pdb
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\bin\Debug\net7.0\Application.dll
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\bin\Debug\net7.0\Domain.dll
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\bin\Debug\net7.0\Application.pdb
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\bin\Debug\net7.0\Domain.pdb
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.csproj.AssemblyReference.cache
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.AssemblyInfoInputs.cache
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.AssemblyInfo.cs
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.csproj.CoreCompileInputs.cache
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.csproj.CopyComplete
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\refint\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\FileData.pdb
+C:\VIA University\Semester 3\.NET\Assignment1_Forum\Assignment1_Forum\FileData\obj\Debug\net7.0\ref\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\bin\Debug\net7.0\FileData.deps.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\bin\Debug\net7.0\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\bin\Debug\net7.0\FileData.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\bin\Debug\net7.0\Application.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\bin\Debug\net7.0\Shared.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\bin\Debug\net7.0\Application.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\bin\Debug\net7.0\Shared.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.csproj.AssemblyReference.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.AssemblyInfoInputs.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.AssemblyInfo.cs
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.csproj.CoreCompileInputs.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.csproj.CopyComplete
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\refint\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\FileData.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\FileData\obj\Debug\net7.0\ref\FileData.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\bin\Debug\net7.0\FileData.deps.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\bin\Debug\net7.0\FileData.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\bin\Debug\net7.0\FileData.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\bin\Debug\net7.0\Application.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\bin\Debug\net7.0\Shared.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\bin\Debug\net7.0\Application.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\bin\Debug\net7.0\Shared.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.csproj.AssemblyReference.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.AssemblyInfoInputs.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.AssemblyInfo.cs
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.csproj.CoreCompileInputs.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.csproj.CopyComplete
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\refint\FileData.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\FileData.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\FileData\obj\Debug\net7.0\ref\FileData.dll

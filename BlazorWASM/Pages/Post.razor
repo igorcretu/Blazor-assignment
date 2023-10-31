@@ -1,0 +1,78 @@
+﻿@page "/Post"
+@inject HttpClient Http
+
+@if (!string.IsNullOrEmpty(msg))
+{
+    <div>
+        <span>@msg</span>
+    </div>
+}
+
+@if (posts == null)
+{
+    <span>Loading..</span>
+}
+else if (!posts.Any())
+{
+    <span>No posts to be found</span>
+}
+else
+{
+    <div class="post-container">
+        @foreach (var post in posts)
+        {
+            <div class="post-card">
+                <p class="post-card-title">@post.Title by @post.Owner.Username</p>
+                @if (post.Body.Length >= 15)
+                {
+                    <label class="post-card-context">@post.Body.Substring(0, 14)...</label>
+                }
+                else
+                {
+                    <label class="post-card-context">@post.Body</label>
+                }
+                <NavLink class="nav-link" href="@($"Post/{post.Id}")" Match="NavLinkMatch.All">
+                    <button class="loginbtn">Visit Post</button>
+                </NavLink>
+            </div>
+        }
+    </div>
+}
+
+<AuthorizeView>
+    <Authorized>
+        <NavLink class="nav-link" href="@($"CreatePost")" Match="NavLinkMatch.All">
+            <label>Create a post</label>
+        </NavLink>
+    </Authorized>
+    <NotAuthorized>
+        <p>You need to be logged in in order to create a post</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private Posts[]? posts;
+    private string msg = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            posts = await Http.GetFromJsonAsync<Posts[]>("/Post");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+    public class Posts
+    {
+        public int Id { get; set; }
+        public global::Shared.Models.User Owner { get; set; }
+        public string Title { get; set; }
+        public string Body { get; set; }
+    }
+}

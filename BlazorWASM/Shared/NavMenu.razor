@@ -1,0 +1,123 @@
+﻿@using System.Security.Claims
+@using BlazorWASM.Services
+@inject IAuthService authService
+@inject NavigationManager navMgr
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorWASM</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <AuthorizeView>
+                <Authorized>
+                    <h2 style="color: white">Welcome back, @context.User.Identity.Name!</h2>
+                    <div class="nav-item px-3">
+                        <button class="loginbtn" @onclick="LogOutAsync">Log out</button>
+                    </div>
+                </Authorized>
+            </AuthorizeView>
+            
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+            
+            <AuthorizeView>
+                <NotAuthorized>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="Register">
+                            <span class="oi oi-plus" aria-hidden="true"></span> Register
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="Login">
+                            <span class="oi oi-plus" aria-hidden="true"></span> Log In
+                        </NavLink>
+                    </div>
+                </NotAuthorized>
+            </AuthorizeView>
+        </div>
+        <AuthorizeView>
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="User">
+                        <span class="oi oi-plus" aria-hidden="true"></span> Users
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Post">
+                        <span class="oi oi-plus" aria-hidden="true"></span> Posts
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="CreatePost">
+                        <span class="oi oi-plus" aria-hidden="true"></span> Create Post
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="ShowCredentialsFromAuthState">
+                        <span class="oi oi-plus" aria-hidden="true"></span> Credentials
+                    </NavLink>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+    </nav>
+</div>
+
+@code {
+
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private async Task LogOutAsync()
+    {
+        try
+        {
+            await authService.LogoutAsync();
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        isLoggedIn = user.Identity != null;
+
+        if (!isLoggedIn) return;
+        
+        authService.OnAuthStateChanged += delegate(ClaimsPrincipal principal)
+        {
+            user = principal;
+            userClaims = user.Claims;
+            name = user.Identity!.Name!;
+            StateHasChanged();
+        };
+
+        userClaims = user.Claims;
+        name = user.Identity!.Name!;
+    }
+}

@@ -1,0 +1,57 @@
+﻿@page "/register"
+@using BlazorWASM.Services
+@inject IAuthService authService;
+
+
+<div class="card">
+    <h3>Create User</h3>
+    <div class="form-group field">
+        <label>User name:</label>
+        <input type="text" @bind="username" @bind:event="oninput"/>
+
+        <label>E-mail:</label>
+        <input type="email" @bind="email" @bind:event="oninput"/>
+
+        <label>Password:</label>
+        <input type="password" @bind="password" @bind:event="oninput"/>
+
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
+    </div>
+    <div class="button-row">
+        <button @onclick="Create" disabled="@(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(email))" class="acceptbtn">Create</button>
+    </div>
+</div>
+
+
+@code {
+    private string username = "";
+    private string email = "";
+    private string password = "";
+    private string resultMsg = "";
+    private string color = "";
+
+    private async Task Create()
+    {
+        resultMsg = "";
+
+        try
+        {
+            await authService.RegisterAsync(new global::Shared.Models.User(username, password, email, role: "User"));
+            username = "";
+            email = "";
+            password = "";
+            resultMsg = "You have successfully registered";
+            color = "green";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
+    }
+
+}

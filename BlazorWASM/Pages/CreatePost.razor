@@ -1,0 +1,66 @@
+﻿@page "/CreatePost"
+@using System.Security.Claims
+@using global::Shared.DTOs
+@using HttpClients.ClientInterfaces
+@inject NavigationManager navMgr
+@inject IPostService postService;
+
+<AuthorizeView>
+    <Authorized>
+        <h3>Create a Post</h3>
+        <p>Title: </p>
+        <input type="text" @bind="title"/>
+        <p>Context: </p>
+        <textarea type="text" @bind="this.context"></textarea>
+        <button @onclick="CreatePostAsync" disabled="@(string.IsNullOrEmpty(title) || string.IsNullOrEmpty(this.context))">Create post</button>
+        @if (!string.IsNullOrEmpty(msg))
+        {
+            <div>
+                <span>@msg</span>
+            </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h3>You need to log in in order to create a post</h3>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+
+    private string title;
+    private string context;
+    private string msg = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        isLoggedIn = user.Identity != null;
+        if (!isLoggedIn) return;
+        userClaims = user.Claims;
+        name = user.Identity!.Name!;
+    }
+
+    private async Task CreatePostAsync()
+    {
+        msg = "";
+
+        try
+        {
+            global::Shared.Models.Post post = await postService.CreateAsync(new PostCreationDto(name, title, context));
+            navMgr.NavigateTo($"/post");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
+

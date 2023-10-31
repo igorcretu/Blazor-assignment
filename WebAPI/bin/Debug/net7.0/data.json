@@ -1,0 +1,11 @@
+{
+  "Users": [
+    {
+      "Id": 3,
+      "Username": "octa",
+      "Email": "octa@gmail.com",
+      "Password": "123456",
+      "Role": "User"
+    }
+  ]
+}

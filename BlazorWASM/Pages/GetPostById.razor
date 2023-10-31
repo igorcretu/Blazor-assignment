@@ -1,0 +1,118 @@
+﻿@page "/Post/{PostId}"
+@using HttpClients.ClientInterfaces
+@using System.Security.Claims
+@using global::Shared.DTOs
+@using global::Shared.Models
+@inject IPostService postService;
+@inject ICommentService commentService;
+@inject NavigationManager navMgr
+
+@if (!string.IsNullOrEmpty(msg))
+{
+    <div>
+        <span>@msg</span>
+    </div>
+}
+
+@if (post == null)
+{
+    <span>Loading..</span>
+}
+else
+{
+    <div class="post-card">
+        <label class="post-card-title">@post.Title by @post.OwnerUsername</label>
+        <label class="post-card-context">@post.Body</label>
+    </div>
+
+
+    <h4>Comments</h4>
+    if (comments == null)
+    {
+        <span>Loading comments...</span>
+    }
+    else if
+        (!comments.Any())
+    {
+        <span>No comments for this post</span>
+    }
+    else
+    {
+        <div class="comments-container">
+            @foreach (Comment comment in comments)
+            {
+                <div class="comment-card">
+                    <label class="comment-card-author">@comment.Owner.Username</label>
+                    <label class="comment-card-context">@comment.Content</label>
+                </div>
+            }
+        </div>
+    }
+    <div class="comment-create">
+        <p>Write a comment:</p>
+        <textarea type="text" @bind="body"></textarea>
+        <button @onclick="CreateCommentAsync">Write a comment</button>
+    </div>
+}
+
+
+
+@code {
+    [Parameter]
+    public string? PostId { get; set; }
+
+    private PostBasicDto? post;
+    private IEnumerable<Comment>? comments;
+    private string msg = "";
+
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+
+    private string? body;
+
+    private async Task CreateCommentAsync()
+    {
+        msg = "";
+        try
+        {
+            Comment comment = await commentService.CreateCommentAsync(new CommentCreationDto(body, name, Int32.Parse(PostId)));
+            if (comment.Id != -1)
+            {
+                navMgr.NavigateTo($"/post/");
+                navMgr.NavigateTo($"/post/{PostId}");
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            post = await postService.GetByIdAsync(PostId);
+            comments = await commentService.GetAsync(new SearchCommentParametersDto(post.Id));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+        
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        isLoggedIn = user.Identity != null;
+        if (!isLoggedIn) return;
+        userClaims = user.Claims;
+        name = user.Identity!.Name!;
+    }
+
+}

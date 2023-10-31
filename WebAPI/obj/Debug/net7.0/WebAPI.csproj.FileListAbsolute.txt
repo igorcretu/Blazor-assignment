@@ -1,0 +1,102 @@
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\appsettings.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\data.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\WebAPI.exe
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\WebAPI.deps.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\WebAPI.runtimeconfig.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\WebAPI.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\WebAPI.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Application.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\FileData.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Shared.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Application.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\FileData.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\bin\Debug\net7.0\Shared.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.csproj.AssemblyReference.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.AssemblyInfoInputs.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.AssemblyInfo.cs
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.WebAPI.props
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\scopedcss\bundle\WebAPI.styles.css
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.csproj.CopyComplete
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\refint\WebAPI.dll
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.pdb
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
+C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\data.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\WebAPI.exe
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\WebAPI.deps.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\WebAPI.runtimeconfig.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\WebAPI.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\WebAPI.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Application.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\FileData.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Shared.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Application.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\FileData.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\bin\Debug\net7.0\Shared.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.csproj.AssemblyReference.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.AssemblyInfoInputs.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.AssemblyInfo.cs
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.WebAPI.props
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\scopedcss\bundle\WebAPI.styles.css
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.csproj.CopyComplete
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\refint\WebAPI.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll

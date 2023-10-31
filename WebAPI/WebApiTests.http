@@ -1,0 +1,4 @@
+﻿POST https://localhost:7022/auth/login
+Content-Type: application/json
+
+{ "Username" : "Johnny", "Password" : "johnny123" }

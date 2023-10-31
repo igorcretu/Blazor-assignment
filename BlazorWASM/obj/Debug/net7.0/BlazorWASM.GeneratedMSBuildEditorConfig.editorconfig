@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorWASM
+build_property.RootNamespace = BlazorWASM
+build_property.ProjectDir = C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/ShowCredentialsFromAuthState.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0NyZWRlbnRpYWxzRnJvbUF1dGhTdGF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/User.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/CreateUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-lmj193ty0n
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/GetPostById.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0UG9zdEJ5SWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7uf5dtzjij
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xm4hp2nt19
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Pages/Post.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-nf126z59hb
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
+
+[C:/Users/WAFFLES/RiderProjects/Blazor assignment/BlazorWASM/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-69rflur3ak
