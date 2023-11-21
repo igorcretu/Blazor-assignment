@@ -850,9 +850,15 @@ C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\BlazorWASM\o
 C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\BlazorWASM\obj\Debug\net7.0\refint\BlazorWASM.dll
 C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\BlazorWASM\obj\Debug\net7.0\BlazorWASM.pdb
 C:\VIA University\Semester 3\.NET\Assignment_Forum\Assignment_Forum\BlazorWASM\obj\Debug\net7.0\ref\BlazorWASM.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\BlazorWASM.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\BlazorWASM.pdb
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.10.z61ywrv6og.js
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\HttpClients.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\HttpClients.pdb
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
@@ -887,6 +893,8 @@ C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\www
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\Shared.dll
+C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\Shared.pdb
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
@@ -1049,14 +1057,6 @@ C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\www
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\BlazorWASM.dll
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\BlazorWASM.pdb
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.10.z61ywrv6og.js
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\HttpClients.dll
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\HttpClients.pdb
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\Shared.dll
-C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\Shared.pdb
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\HttpClients.dll.gz
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
 C:\Users\WAFFLES\RiderProjects\Blazor assignment\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz

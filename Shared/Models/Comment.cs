@@ -5,14 +5,17 @@ public class Comment
     public int Id { get; set; }
     public string Content { get; set; }
     public User Owner { get; set; }
+    public int OwnerId { get; set; }
     public Post Post { get; set; }
+    public int PostId { get; set; }
     public DateTime Date { get; set; }
     
-    public Comment(string content, User owner, Post post, DateTime date)
+    public Comment(string content, int ownerId, int postId, DateTime date)
     {
         Content = content;
-        Owner = owner;
-        Post = post;
+        OwnerId = ownerId;
+        PostId = postId;
         Date = date;
     }
+    private Comment() {}
 }

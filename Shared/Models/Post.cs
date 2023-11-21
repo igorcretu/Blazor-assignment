@@ -4,13 +4,19 @@ public class Post
 {
     public int Id { get; set; }
     public User Owner { get; set; }
+    public int OwnerId { get; set; }
     public string Title { get; set; }
     public string Body { get; set; }
     
-    public Post(User owner, string title, string body)
+    public Post(int ownerId, string title, string body)
     {
-        Owner = owner;
+        OwnerId = ownerId;
         Title = title;
         Body = body;
     }
+
+    private Post()
+    {
+    }
+
 }

@@ -23,7 +23,7 @@ public class PostLogic : IPostLogic
             throw new Exception($"User with username {dto.OwnerUsername} was not found.");
         
         ValidatePostData(dto);
-        Post toCreate = new Post(user, dto.Title, dto.Body);
+        Post toCreate = new Post(user.Id, dto.Title, dto.Body);
         Post created = await postDao.CreatePostAsync(toCreate);
         return created;
     }
@@ -52,7 +52,7 @@ public class PostLogic : IPostLogic
         string titleToUse = dto.Title ?? existing.Title;
         string bodyToUse = dto.Body ?? existing.Body;
         
-        Post updated = new(userToUse, titleToUse, bodyToUse)
+        Post updated = new(userToUse.Id, titleToUse, bodyToUse)
         {
             Id = existing.Id,
             Owner = userToUse,

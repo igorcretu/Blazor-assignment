@@ -16,5 +16,5 @@ public class User
         Role = role;
     }
     
-    public User() {}
+    private User() {}
 }

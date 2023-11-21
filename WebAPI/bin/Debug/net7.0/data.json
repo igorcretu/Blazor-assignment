@@ -13,6 +13,13 @@
       "Email": "octa@gmail.com",
       "Password": "123456",
       "Role": "User"
+    },
+    {
+      "Id": 3,
+      "Username": "igor1",
+      "Email": "igor@gmail.com",
+      "Password": "123456",
+      "Role": "User"
     }
   ],
   "Posts": [
@@ -39,6 +46,18 @@
       },
       "Title": "Okay, my second post",
       "Body": "Here is my second post. I hope you enjoy it!"
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 3,
+        "Username": "igor1",
+        "Email": "igor@gmail.com",
+        "Password": "123456",
+        "Role": "User"
+      },
+      "Title": "Here is my assignment",
+      "Body": "yep thats is"
     }
   ],
   "Comments": [
@@ -89,6 +108,78 @@
         "Body": "Here is my second post. I hope you enjoy it!"
       },
       "Date": "2023-10-31T22:42:20.0869359+01:00"
+    },
+    {
+      "Id": 3,
+      "Content": "extra nice",
+      "Owner": {
+        "Id": 3,
+        "Username": "igor1",
+        "Email": "igor@gmail.com",
+        "Password": "123456",
+        "Role": "User"
+      },
+      "Post": {
+        "Id": 1,
+        "Owner": {
+          "Id": 1,
+          "Username": "Igor",
+          "Email": "Igor@gmail.com",
+          "Password": "123456",
+          "Role": "User"
+        },
+        "Title": "Hello, this is my first post",
+        "Body": "Very proud to announce that I have created my first post on this blog. I hope you enjoy it!"
+      },
+      "Date": "2023-10-31T23:43:50.5803055+01:00"
+    },
+    {
+      "Id": 4,
+      "Content": "how cool",
+      "Owner": {
+        "Id": 3,
+        "Username": "igor1",
+        "Email": "igor@gmail.com",
+        "Password": "123456",
+        "Role": "User"
+      },
+      "Post": {
+        "Id": 2,
+        "Owner": {
+          "Id": 1,
+          "Username": "igor",
+          "Email": "igor@gmail.com",
+          "Password": "123456",
+          "Role": "User"
+        },
+        "Title": "Okay, my second post",
+        "Body": "Here is my second post. I hope you enjoy it!"
+      },
+      "Date": "2023-10-31T23:43:57.2914024+01:00"
+    },
+    {
+      "Id": 5,
+      "Content": "looks cool af",
+      "Owner": {
+        "Id": 3,
+        "Username": "igor1",
+        "Email": "igor@gmail.com",
+        "Password": "123456",
+        "Role": "User"
+      },
+      "Post": {
+        "Id": 3,
+        "Owner": {
+          "Id": 3,
+          "Username": "igor1",
+          "Email": "igor@gmail.com",
+          "Password": "123456",
+          "Role": "User"
+        },
+        "Title": "Here is my assignment",
+        "Body": "yep thats is"
+      },
+      "Date": "2023-10-31T23:44:22.9925782+01:00"
     }
   ]
 }

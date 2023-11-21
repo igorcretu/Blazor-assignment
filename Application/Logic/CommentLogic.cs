@@ -30,7 +30,7 @@ public class CommentLogic : ICommentLogic
 
         DateTime currentDate = DateTime.Now;
         
-        Comment toCreate = new Comment(dto.Content, user, post, currentDate);
+        Comment toCreate = new Comment(dto.Content, user.Id, post.Id, currentDate);
         Comment created = await commentDao.CreateCommentAsync(toCreate);
         return created;
     }

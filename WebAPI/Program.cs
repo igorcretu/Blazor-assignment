@@ -2,6 +2,8 @@ using System.Text;
 using Application.DaoInterfaces;
 using Application.Logic;
 using Application.LogicInterfaces;
+using EfcDataAccess;
+using EfcDataAccess.DAOs;
 using FileData;
 using FileData.DAOs;
 using Forum.Services;
@@ -18,14 +20,19 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<FileContext>();
-builder.Services.AddScoped<IPostDao, PostFileDao>();
-builder.Services.AddScoped<IUserDao, UserFileDao>();
+// builder.Services.AddScoped<FileContext>();
+// builder.Services.AddScoped<IPostDao, PostFileDao>();
+// builder.Services.AddScoped<IUserDao, UserFileDao>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICommentLogic, CommentLogic>();
-builder.Services.AddScoped<ICommentDao, CommentFileDao>();
+// builder.Services.AddScoped<ICommentDao, CommentFileDao>();
+
+builder.Services.AddScoped<IPostDao, PostEfcDao>();
+builder.Services.AddScoped<IUserDao, UserEfcDao>();
+builder.Services.AddScoped<ICommentDao, CommentEfcDao>();
+builder.Services.AddDbContext<ForumContext>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
